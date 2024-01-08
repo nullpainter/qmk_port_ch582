@@ -24,8 +24,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // clang-format off
 
 #define LAYOUT_all( \
-	K000, K001\
+	K000\
 ) \
 { \
-    { K000, K001}\
+    { K000}\
 }

@@ -25,15 +25,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER SayoDevice
 #define PRODUCT      SayoDevice_2x6F_RGB
 
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 6
+#define MATRIX_ROWS 1
+#define MATRIX_COLS 1
 #define MATRIX_ROW_PINS         \
     {                           \
-        B13, B12\
+        B13\
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-         B15, B14, A8, A6,B11, B10 \
+         B15 \
     }
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 

@@ -25,15 +25,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER SayoDevice
 #define PRODUCT      SayoDevice_2x6F_RGB
 
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 21
+#define MATRIX_ROWS 2
+#define MATRIX_COLS 6
 #define MATRIX_ROW_PINS         \
     {                           \
-        B4, B3, B2, B1, B0, B23 \
+        B4, B3 \
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-        A4, A5, A6, A0, A1, A12, A11, A10, A7, B9, B8, B17, B16, B15, B14, B13, B12, B7, B22, B19, B18 \
+        A4, A5, A6, A0, A1, A12 \
     }
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
@@ -127,7 +127,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DRIVER_1_EN B21
 
 #define DRIVER_COUNT       1
-#define DRIVER_1_LED_TOTAL 64
+#define DRIVER_1_LED_TOTAL 12
 #define DRIVER_LED_TOTAL   (DRIVER_1_LED_TOTAL)
 #endif
 

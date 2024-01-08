@@ -1,5 +1,5 @@
 {
-  "name": "m2wired",
+  "name": "SayoDevice",
   "vendorId": "0x8089",
   "productId": "0x0004",
   "matrix": {

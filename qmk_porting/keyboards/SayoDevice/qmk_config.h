@@ -19,8 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID    0xCAFE
-#define PRODUCT_ID   0x0B92
+#define VENDOR_ID    0x8089
+#define PRODUCT_ID   0x0004
 #define DEVICE_VER   0x0001
 #define MANUFACTURER SayoDevice
 #define PRODUCT      SayoDevice_2x6F_RGB
@@ -29,11 +29,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 6
 #define MATRIX_ROW_PINS         \
     {                           \
-        B4, B3 \
+        B1, B0 \
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-        A4, A5, A6, A0, A1, A12 \
+        A5, A4, A3, A2, A1, A0 \
     }
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
@@ -57,7 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODER_RESOLUTION 4
 #endif
 
-#define WS2812_EN_PIN   A3
+#define WS2812_EN_PIN   A0
 #define WS2812_EN_LEVEL 1
 
 #ifdef RGB_MATRIX_ENABLE

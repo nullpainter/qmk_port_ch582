@@ -50,7 +50,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                      KC_A, KC_A, KC_A, KC_A, KC_A, KC_A),
     [1] = LAYOUT_all(/* 1: fn */
                       KC_A, KC_A, KC_A, KC_A, KC_A, KC_A,
+                     KC_A, KC_A, KC_A, KC_A, KC_A, KC_A),
+  [2] = LAYOUT_all(/* 2: fn */
+                      KC_A, KC_A, KC_A, KC_A, KC_A, KC_A,
+                     KC_A, KC_A, KC_A, KC_A, KC_A, KC_A),
+  [3] = LAYOUT_all(/* 3: fn */
+                      KC_A, KC_A, KC_A, KC_A, KC_A, KC_A,
                      KC_A, KC_A, KC_A, KC_A, KC_A, KC_A)
+ 
+ 
  
 };
 

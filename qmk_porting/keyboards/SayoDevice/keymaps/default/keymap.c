@@ -46,13 +46,13 @@ const uint32_t PROGMEM unicode_map[] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_all(/* 0: qwerty */
-                     KC_A),
+                     KC_A, KC_B, KC_C),
     [1] = LAYOUT_all(/* 1: fn */
-                        KC_A),
+                        KC_A, KC_B, KC_C),
   [2] = LAYOUT_all(/* 2: fn */
-                        KC_A),
+                        KC_A, KC_B, KC_C),
   [3] = LAYOUT_all(/* 3: fn */
-                        KC_A)
+                        KC_A, KC_B, KC_C)
  
  
  

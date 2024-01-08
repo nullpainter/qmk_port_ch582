@@ -33,7 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-         B14 \
+         B12, B13, B14 \
     }
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 

@@ -27,5 +27,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 	K000\
 ) \
 { \
-    { K000}\
+    { K000, K001, K002 }\
 }

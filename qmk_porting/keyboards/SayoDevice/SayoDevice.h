@@ -25,9 +25,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define LAYOUT_all( \
 	K000, K001, K002, K003,K004, K005,\
-	K100, K101, K102, K103,K104, K105
+	K100, K101, K102, K103,K104, K105\
 ) \
 { \
     { K000, K001, K002, K003,K004, K005 }, \
-    { K100, K101, K102, K103,K104, K105 } 
+    { K100, K101, K102, K103,K104, K105 } \
 }

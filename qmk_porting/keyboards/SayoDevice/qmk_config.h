@@ -29,11 +29,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 6
 #define MATRIX_ROW_PINS         \
     {                           \
-        A14, A13 \
+        A8, A6 \
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-        A6, A0, A1, A2, A3, A15 \
+        B15, B14, B13, B12, B11, B10 \
     }
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
@@ -45,17 +45,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP FALSE
 
-#ifdef ENCODER_ENABLE
-#define ENCODERS_PAD_A \
-    {                  \
-        B5             \
-    }
-#define ENCODERS_PAD_B \
-    {                  \
-        B6             \
-    }
-#define ENCODER_RESOLUTION 4
-#endif
+// #ifdef ENCODER_ENABLE
+// #define ENCODERS_PAD_A \
+//     {                  \
+//         B5             \
+//     }
+// #define ENCODERS_PAD_B \
+//     {                  \
+//         B6             \
+//     }
+// #define ENCODER_RESOLUTION 4
+// #endif
 
 #define WS2812_EN_PIN   A0
 #define WS2812_EN_LEVEL 1

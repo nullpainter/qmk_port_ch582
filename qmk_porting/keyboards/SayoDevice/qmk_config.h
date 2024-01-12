@@ -26,14 +26,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT      SayoDevice_2x6F_RGB
 
 #define MATRIX_ROWS 1
-#define MATRIX_COLS 1
+#define MATRIX_COLS 12
 #define MATRIX_ROW_PINS         \
     {                           \
         B11\
     }
 #define MATRIX_COL_PINS                                                                                \
     {                                                                                                  \
-         A12 \
+         A16,A11,A13,B9,B8,B7,B1,B12,B13,B14,B15,B16 \
     }
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 

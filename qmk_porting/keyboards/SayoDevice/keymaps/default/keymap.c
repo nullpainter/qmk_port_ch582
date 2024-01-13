@@ -17,6 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 #include "extra_keycode.h"
+#include "raw_hid.h"
 
 //#define RAW_ENABLE
 

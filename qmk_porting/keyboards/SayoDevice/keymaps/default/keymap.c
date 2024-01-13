@@ -22,10 +22,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define RAW_ENABLE
 
 /* Raw HID processing*/
+/*
 void raw_hid_receive(uint8_t *data, uint8_t length) {
     dprintf("MATT raw_hid_receive - received %u bytes \n", length);
 
 }
+*/
 
 
 

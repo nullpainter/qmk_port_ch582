@@ -22,7 +22,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 
 #define VENDOR_ID    0x8089
-#define PRODUCT_ID   0x0004
+ // TEMP TEST
+#define PRODUCT_ID   0x0003   
+//#define PRODUCT_ID   0x0004
 
 #define DEVICE_VER   0x0001
 #define MANUFACTURER SayoDevice

@@ -21,12 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 
-// HID console hack
-#define VENDOR_ID 1155
-#define PRODUCT_ID 22352
-
-//#define VENDOR_ID    0x8089
-//#define PRODUCT_ID   0x0004
+#define VENDOR_ID    0x8089
+#define PRODUCT_ID   0x0004
 
 #define DEVICE_VER   0x0001
 #define MANUFACTURER SayoDevice

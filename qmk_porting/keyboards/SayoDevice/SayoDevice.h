@@ -29,3 +29,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 { \
     { K000,K001,K002,K003,K004,K005,K006,K007,K008,K009,K010,K011 }\
 }
+
+#define RAW_USAGE_PAGE 0xFF60
+#define RAW_USAGE_ID 0x61
